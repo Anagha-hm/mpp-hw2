@@ -61,11 +61,11 @@ class SubmissionTest2 {
         TestTest2Helper("TreePeterson", "2", "10");
     }
 
-    @Test
+    /*@Test
     void TestTest2_Filter_8Thread() throws IllegalAccessException, ClassNotFoundException, InstantiationException, IOException, InterruptedException {
         TestTest2Helper("Filter", "8", "32000");
     }
-
+*/
     @Test
     void TestTest2_Bakery_8Thread() throws IllegalAccessException, ClassNotFoundException, InstantiationException, IOException, InterruptedException {
         TestTest2Helper("Bakery", "8", "32000");

@@ -8,7 +8,7 @@ import edu.vt.ece.locks.*;
 
 public class Test {
 
-    private static final int THREAD_COUNT = 2;
+    private static final int THREAD_COUNT = 4;
 
     private static final String LOCK_ONE = "LockOne";
     private static final String LOCK_TWO = "LockTwo";
