@@ -71,7 +71,7 @@ class SubmissionTest1 {
 //        }).start();
 //    }
 
-    /*@Test
+    @Test
     void TestLBakery_NoMoreThanL() throws InterruptedException {
         int l = 4, n = 10;
         ExecutorService executorService = getExecutorService(l);
@@ -85,7 +85,7 @@ class SubmissionTest1 {
         Thread.sleep(1000);
         assertTrue(t.isAlive());
         t.interrupt();
-    }*/
+    }
 
     @Test
     void TestLBakery_Atleast1() {
